@@ -11,17 +11,17 @@ Constraints:
 */
 
 export default function twoSum(nums: number[], target: number): number[] {
-  const complements = new Map<number, number>();
-  let indicies: number[] = [];
-  let complement: number;
+    const complements = new Map<number, number>();
+    let indicies: number[] = [];
+    let complement: number;
 
-  for (let i = 0; i < nums.length; i++) {
-      const curr = nums[i];
-      complement = target - curr;
-      if (complements.has(complement)) {
-          return [complements.get(complement)!, i];
-      }
-      complements.set(nums[i], i);
-  }
-  return indicies;
-};
+    for (let i = 0; i < nums.length; i++) {
+        const curr = nums[i];
+        complement = target - curr;
+        if (complements.has(complement)) {
+            return [complements.get(complement)!, i];
+        }
+        complements.set(nums[i], i);
+    }
+    return indicies;
+}

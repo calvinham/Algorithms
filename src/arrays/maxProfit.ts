@@ -11,19 +11,19 @@ Constraints:
 */
 
 export default function maxProfit(prices: number[]): number {
-  let profit = 0, 
-      min    = prices[0],
-      i      = 1,
-      curr;
-  
-  while (i < prices.length) {
-      curr = prices[i];
-      if (curr < min) {
-          min = curr
-      } else if (curr - min > profit) {
-          profit = curr - min
-      }
-      i++;
-  }
-  return profit;
-};
+    let profit = 0,
+        min = prices[0],
+        i = 1,
+        curr;
+
+    while (i < prices.length) {
+        curr = prices[i];
+        if (curr < min) {
+            min = curr;
+        } else if (curr - min > profit) {
+            profit = curr - min;
+        }
+        i++;
+    }
+    return profit;
+}
