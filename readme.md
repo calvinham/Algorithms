@@ -4,18 +4,21 @@ reference: https://leetcode.com/discuss/general-discussion/460599/blind-75-leetc
 <hr />
 
 ### **Arrays**
-<ul>
-  <li>[x] Two Sum (<strong>src/arrays/twoSum.ts</strong>)</li>
-  <li>[x] Best Time to Buy and Sell Stock (<i>src/arrays/maxProfit.ts</i>)</li>
-  <li>[] Contains Duptrcate </li>
-  <li>[] Product of Array Except Self </li>
-  <li>[] Maximum Subarray </li>
-  <li>[] Maximum Product Subarray </li>
-  <li>[] Find Minimum in Rotated Sorted Array </li>
-  <li>[] Search in Rotated Sorted Array </li>
-  <li>[] 3 Sum </li>
-  <li>[] Container With Most Water </li>
-</ul>
+
+  - [x] Two Sum
+  </br>&emsp;*src/arrays/twoSum.ts*
+  - [x] Best Time to Buy and Sell Stock
+  </br>&emsp;*src/arrays/maxProfit.ts*
+  - [x] Contains Duplicate
+  </br>&emsp;*src/arrays/containsDuplicate.ts*
+  - [ ] Product of Array Except Self
+  - [ ] Maximum Subarray
+  - [ ] Maximum Product Subarray
+  - [ ] Find Minimum in Rotated Sorted Array
+  - [ ] Search in Rotated Sorted Array
+  - [ ] 3 Sum
+  - [ ] Container With Most Water
+
 </br>
 
 ### **Binary**
